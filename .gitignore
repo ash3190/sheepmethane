@@ -1,0 +1,29 @@
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# NetBeans
+nbproject
+
+# Eclipse
+.project
+
+# Vim
+*.swp
+*.swo
+
+# E-texteditor
+.eprj
+
+# Backup
+*~
+~*
+
+#rvm
+.rvmrc
+.rvmrc.*
+
+/target/
+/DesktopApplication1/build/

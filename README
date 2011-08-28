@@ -1,0 +1,37 @@
+INSTALL
+=======
+
+- Install Netbeans 7.0.1
+- Install the JUnit plugin
+- Install git version control plugin (tools -> plugins)
+
+
+MIGRATIONS
+==========
+
+Creating a new migration:
+- In the home directory, run eg.
+- mvn db-migration:new -Dname=create_experiments
+
+Bring database up to date:
+- mvn db-migration:migrate
+
+More info:
+- See http://code.google.com/p/c5-db-migration/
+
+
+DATABASE
+========
+
+To view the database, download and install
+http://www.h2database.com/html/download.html
+
+Database adress is: jdbc:h2:~/test
+User: root
+Pass: <blank>
+
+
+DEPENDENCIES
+============
+
+ActiveJDBC: http://code.google.com/p/activejdbc
