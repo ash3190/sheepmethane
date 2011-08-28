@@ -22,4 +22,10 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <scm>
+    <connection>scm:git:git@github.com:jamesnelson/sheepmethane.git</connection>
+    <url>scm:git:git@github.com:jamesnelson/sheepmethane.git</url>
+    <developerConnection>scm:git:git@github.com:jamesnelson/sheepmethane.git</developerConnection>
+  </scm>
 </project>
